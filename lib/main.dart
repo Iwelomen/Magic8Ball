@@ -38,7 +38,7 @@ class _Magic8BallState extends State<Magic8Ball> {
         title: Text('Ask Me Anything'),
       ),
       body: Center(
-        child: Container(
+        child: SizedBox(
           child: OutlinedButton(
             onPressed: () {
               changeBall();
